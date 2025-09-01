@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locomotive js</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Roboto;
+        }
+        body{
+            background-color: #0ad6d6;
+        }
+        ::scrollbar{
+            scrollbar-track-color: RED;
+        }
+
+        #page1,
+        #page2,
+        #page3,
+        #page4 {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 500;
+            color: white;
+        }
+
+        #page1 {
+            background-color: blue;
+        }
+        
+
+        #page2 {
+            background-color: rgb(183, 0, 255);
+        }
+
+        #page3 {
+            background-color: rgb(88, 212, 6);
+        }
+
+        #page4 {
+            background-color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <main data-scroll-container>
+        <div data-scroll id="page1">
+            <h1 data-scroll data-scroll-speed="30">This is Page 1</h1>
+        </div>
+        <div data-scroll id="page2">This is Page 2</div>
+        <div data-scroll id="page3">This is Page 3</div>
+        <div data-scroll id="page4">This is Page 4</div>
+        <iframe class="scribd_iframe_embed" title="bibleofjs_by_sheryians" src="https://www.scribd.com/embeds/670205255/content?start_page=1&view_mode=scroll&access_key=key-DxOny1vigjeHf0tloiPc" tabindex="0" data-auto-height="true" data-aspect-ratio="0.7204472843450479" scrolling="no" width="100%" height="600" frameborder="0"></iframe><p  style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"   ><a title="View bibleofjs_by_sheryians on Scribd" href="https://www.scribd.com/document/670205255/bibleofjs-by-sheryians#from_embed"  style="text-decoration: underline;">bibleofjs_by_sheryians</a> by <a title="View nithin abram23's profile on Scribd" href="https://www.scribd.com/user/688703880/nithin-abram23#from_embed"  style="text-decoration: underline;">nithin abram23</a></p>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

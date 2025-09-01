@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs with forEach</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .tabs { display: flex; cursor: pointer; }
+        .tab { padding: 10px 20px; border: 1px solid #ccc; }
+        .tab.active { background-color: #007bff; color: white; }
+        .content { display: none; padding: 20px; border: 1px solid #ccc; }
+        .content.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tab" data-tab="home">Home</div>
+        <div class="tab" data-tab="about">About</div>
+        <div class="tab" data-tab="services">Services</div>
+        <div class="tab" data-tab="contact">Contact</div>
+    </div>
+    
+    <div class="contents">
+        <div class="content" id="home">This is the Home page.</div>
+        <div class="content" id="about">This is the About page.</div>
+        <div class="content" id="services">This is the Services page.</div>
+        <div class="content" id="contact">This is the Contact page.</div>
+    </div>
+
+    <script>
+        document.querySelectorAll(".tab").forEach(tab => {
+            tab.addEventListener("click", () => {
+                document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+                document.querySelectorAll(".content").forEach(c => c.classList.remove("active"));
+                
+                tab.classList.add("active");
+                document.getElementById(tab.dataset.tab).classList.add("active");
+            });
+        });
+        
+        document.querySelector(".tab").classList.add("active");
+        document.querySelector(".content").classList.add("active");
+    </script>
+</body>
+</html>
