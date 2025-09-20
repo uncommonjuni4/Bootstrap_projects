@@ -1,0 +1,70 @@
+/* meida query for 1170px screen  */
+@media(max-width:1170px){
+    /* general css maen for all section  */
+     .section-subtitle{
+        max-width: 60%;
+     }
+    /* navbar css  */
+      
+    /* for banner section  */
+}
+
+
+/* ==============media query for 991 scree============= */
+@media(max-width:991px){
+        /* general css maen for all section  */
+        .about .banner-section,
+ .product .banner-section,
+ .gallery .banner-section,
+ .contact .banner-section,
+ .Error .banner-section{
+    
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+
+ }
+        /* for navbar  */
+        .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+      }
+      .header .navbar-nav{
+        margin-top: 2rem;
+      }
+      .header .navbar-nav .nav-links{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+      }
+      .header .header-right span{
+        padding: 0.2rem 0.5rem;
+      }
+}
+
+/* ==============media query for 767 scree============= */
+@media(max-width:767px){
+      /* general css maen for all section  */
+      body, html{
+        font-size: 8px;
+      }
+       .section-subtitle{
+        max-width: 80%;
+     }
+
+     /* baner-sction  */
+     .banner-section{
+        min-height: 70vh;
+     }
+     .banner-section .carousel-item{
+        height: 70vh;
+     }
+
+}
+
+/* ==============media query for 590 scree============= */
+@media(max-width:590px){
+      /* general css maen for all section  */
+      body, html{
+        font-size: 7px;
+      }
+      
+}
