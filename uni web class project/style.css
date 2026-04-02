@@ -1,0 +1,296 @@
+ @font-face {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro'), url('Acumin-RPro.woff') format('woff');
+    }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#header-section{
+       max-width: 100%;
+    height: 764px; /* or your desired height */
+    background-image: url(image/background1-image.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/* ======nav-anger-link====== */
+
+    .nav-item a{
+    color: #ffffff !important;
+    margin-right: 94px ;
+    font-family: 'Acumin Pro';
+    font-size: 18px;
+}
+
+/* =======btn-color==== */
+.btn-color{
+    background-color: #ffffff;
+    color: #000000  !important;
+    font-family: 'Acumin Pro';
+    width: 173px;
+    height: 47px;
+    font-size: 18px;
+}
+
+
+/* ======container-head===== */
+/* .container-head{ */
+    margin-top: 90px;
+
+}
+
+/* =======header-section-h1====== */
+.header-section-col1{
+    margin-top: 20px !important;
+}
+.header-section-p-1{
+color: #f5be1f;
+/* padding-bottom: ; */
+}
+
+
+/* ======header-section-h1===== */
+.header-section-h1{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+/* =========header-section-p-1====== */
+.header-section-p-2{
+    color: #ffffff;
+    margin-top: 12px;
+}
+
+/* =========header-section-btn==== */
+.header-section-btn{
+    background-color: #f5be1f;
+    width: 220px;
+    height: 60px;
+    line-height: 18px;
+}
+.header-section-btn:hover{
+    background-color: #ffffff;
+    color: black;
+}
+/* =============header-section-end======= */
+
+/* ================medal-section-1  start========== */
+#medal-section-1{
+    width: 100%;
+    height: 1436px;
+    background-color: #ffffff;
+}
+
+
+/* ===== medal-section-1-card-background===== */
+
+.medal-section-1-col1{
+    background-color: #158de3;
+}
+
+/* =======medal-section-1-cards-border======== */
+.medal-section-cols{
+    border: 2px solid #fadf8f;
+    border-radius:8px;
+}
+
+/* ==========card-2-margin======= */
+.card-2-m{
+    margin-top: 50px;
+}
+
+/* =========card-3-margin-top===== */
+.card-3-m{
+    margin-top: 121px;
+}
+.card-4-m{
+    margin-top: -60px;
+}
+
+/* ==========medal-section-end_=========== */
+/* ================medal-section-2-start======= */
+#medal-section-2{
+    width: 100%;
+    height: 1545px;
+    background-color: #f5be1f;
+}
+
+/* =========medal-section-2-h1======= */
+.medal-section-2-h1{
+    margin-top: 90px;
+}
+
+
+/* ======icon1====== */
+.icon1{
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    background-color: #f5be1f;
+}
+
+
+/* ============medal-section-2-end===== */
+
+/* ====medal-section-3-start====== */
+
+#medal-section-3{
+  max-width: 100%;
+  height: 362px;
+  background-color: #ffffff;
+}
+
+.medal-section-3-btn{
+    width: 187px;
+    height: 50px;
+    background-color: #158de3;
+    color: #ffffff;
+}
+.medal-section-3-heading{
+    margin-top: 140px;
+}
+
+/* =======medal-section-3-end========= */
+
+/* ================medal-section-4-start================ */
+#medal-section-4{
+    max-width: 100%;
+    height: 980px;
+    background-color: #158de3;
+}
+
+.medal-section-4-h1{
+    padding-top: 95px;
+    padding-bottom: 67px;
+    /* border: 2px solid red; */
+}
+
+.medal-section-4-ul li{
+    list-style: none;
+    padding-block: 21px;
+}
+
+.medal-section-4-btn{
+    width: 280px;
+    height: 74px;
+    color: #f5be1f;
+    margin-left: 33px;
+     background-color: #000000;
+     border-radius: 8px;
+     font-weight: 800;
+    
+}
+.medal-section-4-btn:hover{
+background-color: #f5be1f;
+color: #000;
+}
+
+/* =====medal-section-4-end======= */
+
+/* ====================medal-section-5-start==== */
+
+#medal-section-5{
+    max-width: 100%;
+    height: 770px;
+    background-color: #ffffff;
+}
+.medal-section-5-data{
+    margin-top: 130px;
+}
+/* ========================medal-section-5-end=================== */
+
+/* ==========================footer-start=============== */
+
+/* ===============================footer-section-1-start========================== */
+#footer-section-1{
+    max-width: 100%;
+    height: 641px;
+    background-image: url(image/background-2.png);
+    background-size: cover;
+}
+.footer-section-1-heading{
+    color: #f5be1f;
+    font-weight: 600;
+    padding-bottom: 10px;
+      padding-top: 90px;
+}
+.footer-section-1-h2{
+    color:#000000;
+    font-weight: 600;
+}
+
+/* =====================footer-section-1-end========= */
+/* ===============footer-section-2-start====================== */
+#footer-section-2{
+    max-width: 100%;
+    height: 255px;
+    background-color: #000000;
+}
+
+
+.footer-section-2-col-left{
+    margin-top: 77px;
+}
+
+
+
+
+.footer-section-2-col-center{
+    margin-top: 77px;
+}
+.footer-section-2-col-center  ul{
+    padding-top: 30px;
+}
+.footer-section-2-col-center  ul li{
+    padding-block: 8px;
+    list-style: none;
+
+}
+.footer-section-2-col-center  ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #158de3;
+    font-weight:700 ;
+
+
+}
+/* .footer-section-2-col-right{
+    margin-top: px;
+} */
+.footer-section-2-col-right ul li{
+    padding-block: 5px;
+    list-style: none;
+}
+.footer-section-2-col-right ul li a{
+    text-decoration: none;
+     font-size: 18px;
+    color: #158de3;
+    font-weight:700 ;
+}
+
+
+/* =================footer-section-2-end=============== */
+
+/* ===================footer-section-3-start======================== */
+
+#footer-section-3{
+    height: 50px;
+    background-color: #f5be1f;
+    color: #000000;
+    max-width: 100%;
+}
